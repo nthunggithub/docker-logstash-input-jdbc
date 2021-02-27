@@ -47,7 +47,6 @@ services:
     depends_on:
       - elasticsearch
       - kibana
-      - mysql
 volumes:
   elasticsearch_data:
   mysql_data:
